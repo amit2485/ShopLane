@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./index.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>ShopLane</title>
+</head>
+<body>
+    <div id="header">
+       <a id="logo" href="./index.html"><b>SHOP<span style="color: black;">LANE</span></b></a>
+       <div id="header_links" >
+           <a class="nav_links" href="#carouselExampleAutoplaying">HOME</a>
+           <a class="nav_links" href="#clothing">CLOTHING</a>
+           <a class="nav_links" href="#accesories">ACCESSORIES</a>
+       </div>
+       <div id="header_icons">
+        <i class="h_icons fa-solid fa-magnifying-glass"></i>
+        <a href="./cart.html"><i id="cart_icon" class="h_icons fa-solid fa-cart-shopping">
+          
+          <i id="cart_circle" class="fa-solid fa-circle"><span id="cart_count">0</span></i> 
+        </i></a>
+        
+        <i class="h_icons fa-solid fa-user"></i>
+       </div>
+    </div>
+   
+      <div id="carouselExampleAutoplaying" class="carousel slide img_carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://shoplane.netlify.app/img/img4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://shoplane.netlify.app/img/img2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://shoplane.netlify.app/img/img3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://shoplane.netlify.app/img/img1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" hidden>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="features">
+        <div class="feature_container" >
+          <div class="feature_option">
+            <i class="fa-solid fa-truck feature_icons"></i>
+          </div>
+          <div>
+          </div>
+          <h6 class="feature-title">Free Delivery</h6>
+        </div>
+        <div class="feature_container">
+          <div class="feature_option" >
+            <i class="fa-solid fa-sack-dollar feature_icons"  ></i>
+          </div>
+          <h6 class="feature-title">Money Back Guarantee</h6>
+        </div>
+        <div class="feature_container">
+          <div class="feature_option">
+            <i class="fa-solid fa-headset feature_icons"></i>
+          </div>
+          <h6 class="feature-title">Support</h6>
+        </div>
+         <div class="feature_container">
+          <div class="feature_option">
+            <i class="fa-solid fa-hand-holding-dollar feature_icons"></i>
+          </div>
+          <h6 class="feature-title">Secure Payment</h6>
+        </div>
+      </div>
+      <div id="product">
+        <h5 id="clothing">Clothing for Men and Women</h5>
+        <div id="clothing_section">
+          <!-- <div class="cloth_item">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg" alt="">
+            <p>Men Navy Blue Solid Sweatshirt</p>
+            <h6>United Colors of Beneton</h6>
+            <b>Rs 2599</b>
+          </div>
+          <div class="cloth_item">
+
+          </div>
+          <div class="cloth_item">
+
+          </div>
+          <div class="cloth_item">
+
+          </div>
+          <div class="cloth_item">
+
+          </div> -->
+        </div>
+        <h5 id="accesories">Accessories for Men and Women</h5>
+        <div id="accesories_section">
+          <!-- <div class="cloth_item">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg" alt="">
+            <p>Men Navy Blue Solid Sweatshirt</p>
+            <h6>United Colors of Beneton</h6>
+            <b>Rs 2599</b>
+          </div>
+          <div class="cloth_item">
+
+          </div>
+          <div class="cloth_item">
+
+          </div>
+          <div class="cloth_item">
+
+          </div>
+          <div class="cloth_item">
+
+          </div> -->
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footer_items">
+          <h6>ONLINE STORE</h6>
+          <p>MEN CLOTHING</p>
+          <p>WOMEN CLOTHING</p>
+          <p>MEN ACCESSORIES</p>
+          <p>WOMEN CLOTHING</p>
+        </div>
+        <div class="footer_items">
+          <h6>HELPFUL LINKS</h6>
+          <p>HOME</p>
+          <p>ABOUT</p>
+          <p>CONTACT</p>
+        </div>
+        <div class="footer_items">
+          <h6>PARTNERS</h6>
+          <p>ZARA</p>
+          <p>PANTALOONS</p>
+          <p>LEVIS</p>
+          <p>UCB</p>
+        </div>
+        <div class="footer_items">
+          <h6>ADDRESS</h6>
+          <p>BUILDING 101</p>
+          <p>CENTRAL AVENUE</p>
+          <p>LA - 902722</p>
+          <p>UNITED STATES</p>
+        </div>
+
+      </div>
+    <script src="https://kit.fontawesome.com/61e25bb34f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</body>
+</html>
